@@ -9,3 +9,7 @@ You have conversation history in your sessions but no memory file yet. On your n
 3. Keep this file updated after every meaningful conversation
 
 **This file is how you remember. If it is empty, you do not have long-term memory. Fix that now.**
+
+## Backup
+- GitHub: https://github.com/del172/Leo-backup (push periodically!)
+- Run: `git add -A && git commit -m "update" && git push` from /root/.openclaw/workspace
