@@ -14,4 +14,4 @@ git commit -m "Auto-backup: $TIMESTAMP"
 # Push to GitHub
 git push
 
-echo "Backup completed at: $TIMESTAMP"
+echo "Backup completed at: $TIMESTAMP" | tee -a /root/.openclaw/workspace/backup.log
