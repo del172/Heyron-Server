@@ -1,0 +1,64 @@
+# GitHub Actions Workflow: Daily Workspace Backup
+# Runs automatically at 2am UTC every day
+# Backs up workspace files to the repository
+
+name: Daily Backup
+
+on:
+  # Run daily at 2am UTC
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+  
+  # Run on push to main branch to keep workflow file in sync
+  push:
+    branches:
+      - master
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Set up Git config
+      - name: Configure Git
+        run: |
+          git config --local user.email "leo@openclaw.local"
+          git config --local user.name "Leo (AI)"
+      
+      # Create backup
+      - name: Backup Workspace
+        run: |
+          # Add all changes
+          git add -A
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to backup"
+            exit 0
+          fi
+          
+          # Commit with timestamp
+          TIMESTAMP=$(date "+%Y-%m-%d %H:%M UTC")
+          git commit -m "Auto-backup: $TIMESTAMP"
+          
+          echo "Changes committed"
+      
+      # Push changes
+      - name: Push Backup
+        run: |
+          if git diff --cached --quiet; then
+            echo "No changes to push"
+            exit 0
+          fi
+          git push origin master
+          echo "Backup pushed to GitHub"
