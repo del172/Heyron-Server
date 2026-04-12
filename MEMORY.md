@@ -32,3 +32,7 @@ You have conversation history in your sessions but no memory file yet. On your n
 
 ### Key Insight
 The #1 problem for vibe coders is **distribution** (not bugs or AI limits). Most successful vibe-coded products solve "boring B2B problems" for micro-businesses (1-5 employees).
+
+### User Preferences
+- **Timezone:** London, UK (BST/GMT depending on season)
+- My system runs on UTC, so I'm currently 3 hours behind
