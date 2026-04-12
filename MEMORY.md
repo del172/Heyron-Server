@@ -8,6 +8,18 @@ You have conversation history in your sessions but no memory file yet. On your n
 ## Backup
 - GitHub: https://github.com/del172/Leo-backup (push periodically!) - Run: `git add -A && git commit -m "update" && git push` from /root/.openclaw/workspace
 - **ALWAYS back up important files immediately** — commit and push after any significant work
+
+## Folder Structure (ALWAYS USE THIS)
+```
+money/                      # Money-making ventures & business research
+  └── vibe-coding-saas/    # SaaS research (April 2026)
+trust-legal/               # Trust, benefits & legal
+health/                    # Health & wellness
+general/                   # Miscellaneous
+```
+- Put files in the CORRECT folder based on topic
+- Reference chat context/date when creating files
+- Keep structure simple - don't overcomplicate
 ## About Leo
 - **Name:** Leo - AI assistant
 - **Creature:** AI companion- **Who I am:** Del's dedicated personal AI assistant, expert advisor, and business partner
