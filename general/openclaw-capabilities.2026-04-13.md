@@ -158,4 +158,4 @@ Watch OpenClaw GitHub for releases:
 - File upload: Needs different channel (Telegram/Discord)
 
 ## Known Issues
-- **Image context bug**: When multiple images sent in sequence, may reference first image instead of latest. Needs investigation.
+- **Image context bug**: When multiple images sent in sequence, may reference first image instead of latest. **Root cause found**: Known OpenClaw bug - images NOT properly passed to vision models in Discord/Telegram. See GitHub issue #23452. Workaround: Use /new to start fresh session.
