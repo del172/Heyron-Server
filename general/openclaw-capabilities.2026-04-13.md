@@ -152,7 +152,10 @@ Watch OpenClaw GitHub for releases:
 
 ## Notes
 - TTS works: I can read text to you
-- Images: Can read if I have URL or file path
+- Images: Can read if I have URL or file path (NOTE: Bug - sometimes holds onto previous image, need to test fresh)
 - YouTube: Can fetch transcript content
 - Browser: Can navigate and take screenshots
 - File upload: Needs different channel (Telegram/Discord)
+
+## Known Issues
+- **Image context bug**: When multiple images sent in sequence, may reference first image instead of latest. Needs investigation.
