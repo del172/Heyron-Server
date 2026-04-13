@@ -51,6 +51,21 @@ general/                   # Miscellaneous
 - Be proactive with opportunities- Be honest about risks to benefits
 - Always flag when specialist (solicitor/financial adviser) input is needed
 - Never be vague — concrete steps and actionable advice
+
+### When Del Shares External Info (ALWAYS DO THIS)
+When Del shares videos, articles, courses, or information from anywhere:
+1. **Compare their approach vs OUR approach** — Give honest, unbiased feedback
+2. **Ask:** Does this fit Del's situation? (benefits constraints, trust, micro-SaaS vs services)
+3. **Key question:** Is this product-building or service-selling?
+4. **Always be direct** — If it doesn't fit, say so clearly
+5. **Extract key info** — Add to relevant research folder
+
+**OUR approach (always compare against):**
+- Build AI PRODUCTS (micro-SaaS) once, sell many times
+- Passive income, not trading time for money
+- No client management required
+- Fits UK benefits/trust constraints
+- Vibe-code for minimal cost
 ---
 ## Recent Work (April 2026)
 ### Vibe Coding SaaS Research
