@@ -1,0 +1,14 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.dashnex.com	TRUE	/	FALSE	1778884006	_gcl_au	1.1.2007432751.1771108006
+.app.dashnex.com	TRUE	/	TRUE	1776413804	taboola_cid	undefined
+app.dashnex.com	FALSE	/	FALSE	1782458205	_cids	W10=
+.dashnex.com	TRUE	/	FALSE	1781597868	_fbp	fb.1.1771108006884.855118373865237145
+.dashnex.com	TRUE	/	FALSE	1808381805	_ga	GA1.1.1956001803.1771108007
+.dashnex.com	TRUE	/	TRUE	1806123977	_twpid	tw.1772427976672.233702361473364699
+.dashnex.com	TRUE	/	TRUE	1776266485	taboola_cid	undefined
+.dashnex.com	TRUE	/	FALSE	1776266485	prism_251722799	8aad7a8f-a89e-4588-aea0-e6cc26a90768
+.dashnex.com	TRUE	/	FALSE	1808381870	_ga_4LEEMTVXZG	GS2.1.s1773821805$o16$g1$t1773821869$j60$l0$h0
+.dashnex.com	TRUE	/	TRUE	1805236822	cf_clearance	umSb7BIh9jSMoQvXCAbiQxNux4mymEyj8cZhrAIAc6E-1773700823-1.2.1.1-QfyON7xpIsCKvAbtJ_38g9eE0ePzvE13vzdpG7MLCRnRRIPP2ypF0lG3n_mi6hO5gXegWtzHzRyXZS.UBTJM0v1iczen5MNWW6DYv0yWCTTALNCeMbynX8Tc8kKvVh7JG3q4G_FwEvFxf5smuJ5hZ6cwRm_k6blT9folzOksS7oCkiMNwn1D32qfynB9e7J7GfSluV2ik8Je5XF1Jn8mTdJ3jspYcToA2delNnx9_UM
