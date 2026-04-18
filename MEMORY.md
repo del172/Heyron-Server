@@ -92,3 +92,17 @@ The #1 problem for vibe coders is **distribution** (not bugs or AI limits). Most
 - Key points: I'm an autonomous business operations agent, not just an answering service
 - Default workflow: review assets → score → decide execute/test/park/discard → action plan
 - Output format: always end with the single best next step
+
+### Dashnex & Side Merchant Setup (April 18, 2026)
+- Del enrolled in Side Merchant Program through Dashnex
+- Processed 34 training video transcripts (saved to `dashnex-setup/side-merchant/tutorials/`)
+- Researched ClickBank current top offers in 3 niches:
+  - **Niche #1 (Weight Loss):** Java Burn ($150+/sale), Okinawa Flat Belly Tonic
+  - **Niche #2 (Relationships):** His Secret Obsession (90% commission, evergreen)
+  - **Niche #5 (Pets):** Brain Training for Dogs (75%, ~$30/sale, highest quality score)
+- Created ClickBank knowledge base with offer details, commission structures, affiliate link formats
+- Found vendor resources: free giveaways, email swipes, banners for each offer
+- **Del's ClickBank nickname:** `dognurse`
+- **Selected niche for first site:** Pets/Brain Training for Dogs
+- All files saved in `dashnex-setup/clickbank/` and `dashnex-setup/side-merchant/`
+- **Pending:** Generate affiliate link, download resources, build Dashnex site
