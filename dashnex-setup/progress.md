@@ -1,0 +1,3 @@
+- **Dashnex Site:** Brain Training for Dogs is deploying with subdomain `dogtrainer.dashnexcloud.com`
+- **Hoplink:** `https://43a82zvewiulhp27swsh80t97x.hop.clickbank.net/?&campaign=pets1`
+- **Next Steps:** Wait for deployment to complete, configure landing page with hoplink.

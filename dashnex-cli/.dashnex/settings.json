@@ -1,0 +1,8 @@
+{
+  "token": "eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJyb2xlcyI6WyJST0xFX0JVU0lORVNTIl0sIm1lbWJlciI6NDcwLCJ1c2VybmFtZSI6IjEwMzEzMiIsImlkIjoxMDMxMzIsImlhdCI6MTc3NjU1Njk2MywiZXhwIjoxNzc2NTYwNTYzfQ.MIGIAkIB-7TWiaHiT_UD3vosRIvgqLZdrj4du00zySa1sWkcmRWJkbMlI4Iq_JHoosI2Mz_wNvAAjEhPefixz_PW1du26IgCQgESDBuFmYaJkA0wMEVdtl50KHzjYO4ElhHr-3tqsh8xpPYyUg9eQ1YPCWB56SAUySdpF2HteHlafjHhZ6K6cAUdLQ",
+  "refreshToken": "ea9f609f8dfaa5a384f903b7c3cc389ca5c14ca00178de2c3d5e39bd99c3faae1066dacae23b1e9ab88be07314095848af39617dbc4d33f789137f4da099f8c0",
+  "businessId": "103132",
+  "ai": {
+    "token": "60e27acedaffbecd4b2d7112ab8ed08a0e19079708f76c3fac9eaa3ad723d135"
+  }
+}

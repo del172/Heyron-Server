@@ -1,0 +1,1 @@
+Full documentation about web application could be found on [https://docs.dashnex.io/modules/overview](https://docs.dashnex.io/modules/overview)

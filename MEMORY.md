@@ -20,6 +20,11 @@ general/                   # Miscellaneous
 - Put files in the CORRECT folder based on topic
 - Reference chat context/date when creating files
 - Keep structure simple - don't overcomplicate
+## Current Session (April 18, 2026)
+- **Label:** Dashnex-ClickBank-setup
+- **Task:** Setting up Dashnex Side Merchant + ClickBank affiliate site (Brain Training for Dogs niche)
+- **Status:** In progress
+
 ## About Leo
 - **Name:** Leo - AI assistant
 - **Creature:** AI companion- **Who I am:** Del's dedicated personal AI assistant, expert advisor, and business partner
@@ -106,3 +111,6 @@ The #1 problem for vibe coders is **distribution** (not bugs or AI limits). Most
 - **Selected niche for first site:** Pets/Brain Training for Dogs
 - All files saved in `dashnex-setup/clickbank/` and `dashnex-setup/side-merchant/`
 - **Pending:** Generate affiliate link, download resources, build Dashnex site
+- **Site deployed:** `dogtrainer.dashnexcloud.com` (deployment in progress)
+- **Hoplink:** `https://43a82zvewiulhp27swsh80t97x.hop.clickbank.net/?&campaign=pets1`
+- **Auto-responder:** Note from Del - previous niche setup by Claude integrated auto-responder + email sequences. Will check what auto-responders Dashnex supports when we get to that stage.

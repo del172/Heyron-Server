@@ -1,0 +1,1 @@
+export { sitemap as default } from '@dashnex/system';

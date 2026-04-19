@@ -1,0 +1,67 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "main": "src/dashnex/worker.ts",
+  "name": "dogtrainer",
+  "compatibility_date": "2025-10-24",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".vinext/assets",
+    "not_found_handling": "none",
+    "run_worker_first": [
+      "/api/*",
+      "/uploads/*"
+    ]
+  },
+  "secrets": {
+    "required": [
+      "DASHNEX_OAUTH_CLIENT_SECRET",
+      "EMAILS_CLIENT_SECRET",
+      "APPLICATION_SECRET",
+      "PAYMENT_PROCESSOR_WEBHOOK_SECRET",
+      "DNX_OAUTH_CLIENT_SECRET"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "CORE_DB",
+      "database_name": "core-db-346-live",
+      "database_id": "local-core-db"
+    }
+  ],
+  "kv_namespaces": [],
+  "r2_buckets": [
+    {
+      "binding": "CORE_UPLOADS",
+      "bucket_name": "local-core-uploads"
+    },
+    {
+      "binding": "PORTAL_UPLOADS",
+      "bucket_name": "local-portal-uploads"
+    }
+  ],
+  "services": [],
+  "durable_objects": {
+    "bindings": []
+  },
+  "migrations": [],
+  "queues": {
+    "producers": [],
+    "consumers": []
+  },
+  "triggers": {
+    "crons": [
+      "*/5 * * * *",
+      "* * * * *"
+    ]
+  },
+  "routes": [
+    {
+      "pattern": "dogtrainer.dashnexcloud.com",
+      "custom_domain": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export { handleRequest as GET } from '@dashnex/core';
