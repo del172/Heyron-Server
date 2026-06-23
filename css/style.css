@@ -1,0 +1,9 @@
+/* Existing CSS for navigation might be here */
+
+/* Add hover effect for submenus */
+.submenu-item a:hover {
+  color: blue !important; /* Or a specific blue hex code if preferred */
+}
+
+/* Potentially targeting specific submenu elements if .submenu-item is not precise */
+/* Example: .top-nav .submenu a:hover { color: blue !important; } */
