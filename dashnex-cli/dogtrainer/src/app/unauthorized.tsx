@@ -1,1 +1,0 @@
-export { unauthorized as default} from '@dashnex/system/client';

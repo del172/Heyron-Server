@@ -1,1 +1,0 @@
-export { forbidden as default } from '@dashnex/system';

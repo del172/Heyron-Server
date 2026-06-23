@@ -1,1 +1,0 @@
-export { notFound as default } from '@dashnex/system';

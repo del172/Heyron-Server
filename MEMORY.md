@@ -1,116 +1,54 @@
-# MEMORY.md
-_This is your long-term memory. You wake up fresh each session, but this file persists._
-## Instructions
-You have conversation history in your sessions but no memory file yet. On your next interaction: 1. Read through your recent sessions and USER.md
-2. Write down everything important about your human: their name, projects, preferences, goals
-3. Keep this file updated after every meaningful conversation
-**This file is how you remember. If it is empty, you do not have long-term memory. Fix that now.**
-## Backup
-- GitHub: https://github.com/del172/Leo-backup (push periodically!) - Run: `git add -A && git commit -m "update" && git push` from /root/.openclaw/workspace
-- **ALWAYS back up important files immediately** — commit and push after any significant work
+**Rank & Rent Website Creation Process**
 
-## Folder Structure (ALWAYS USE THIS)
-```
-money/                      # Money-making ventures & business research
-  └── vibe-coding-saas/    # SaaS research (April 2026)
-trust-legal/               # Trust, benefits & legal
-health/                    # Health & wellness
-general/                   # Miscellaneous
-```
-- Put files in the CORRECT folder based on topic
-- Reference chat context/date when creating files
-- Keep structure simple - don't overcomplicate
-## Current Session (April 18, 2026)
-- **Label:** Dashnex-ClickBank-setup
-- **Task:** Setting up Dashnex Side Merchant + ClickBank affiliate site (Brain Training for Dogs niche)
-- **Status:** In progress
+**Phase 1: Niche Analysis & Setup**
+1.  **Niche Selection & Validation:**
+    *   Identify a profitable, local service niche (e.g., emergency plumber, roof repair, locksmith).
+    *   **Search:** Use `web_search` to analyze search volume, competition, and average customer lifetime value for the niche.
+    *   **Criteria:** Look for local-based services with high-ticket, recurring, or urgent needs.
+2.  **Keyword Research:**
+    *   **Search:** Use `web_search` (with tools like Ahrefs, SEMrush if accessible, or general search terms) to find primary keywords (e.g., "emergency roof repair [city name]"), secondary keywords, and long-tail queries.
+    *   **Focus:** Identify keywords with commercial intent ("near me," "hire," "cost," "emergency").
+3.  **Target Location Identification:**
+    *   Define specific geographic areas (cities, counties) for the website.
+    *   **Data Needed:** Population, business density, local service demand.
+4.  **Website Structure & Content Planning:**
+    *   **Core Pages:** Home, Services (detailed breakdown), About Us, Service Area, Contact Us, Blog/Resources.
+    *   **Content Strategy:** Plan for unique, localized content that targets identified keywords. Emphasize trust signals (reviews, guarantees, emergency availability).
+    *   **Call to Actions (CTAs):** Prominent phone numbers, "Get a Quote" forms, "Call Now" buttons.
 
-## About Leo
-- **Name:** Leo - AI assistant
-- **Creature:** AI companion- **Who I am:** Del's dedicated personal AI assistant, expert advisor, and business partner
-- **Primary mission:** Help Del make money, grow businesses, improve his health, and handle any task efficiently
-- **Operating System:** Full operating system prompt saved in `LEO-OS.md` — defines my role as strategic operator, evaluator, and execution partner
----
-## About Del (IMPORTANT)
-### Identity
-- **Name:** Del
-- **Location:** London, UK
-- **Timezone:** BST/GMT
-### Background
-- Serious accident in **1991** resulting in multiple injuries (some ongoing/long-term)
-- Received compensation held in a **bare compensation trust**- Currently on **UK benefits**
-### Key Constraints
-- **On UK benefits** — any financial advice must consider benefit eligibility rules and disregards
-- **Bare trust** — funds have restrictions on how they can be used
-- Cannot freely invest in ways that would be treated as capital and affect benefits
-- Wants legal, compliant ways to make better use of trust funds
-### My Expertise Areas for Del
-- Business idea generation (benefit-aware, trust-aware)
-- Research & analysis- AI & technology expert
-- Health & wellness (with awareness of 1991 accident injuries)
-- UK financial & legal (trusts, benefits, DWP rules)- Business setup & automation
-- PLR product evaluation
-- Universal personal assistant tasks
-### My Commitment to Del
-- Always address Del by name
-- Be direct, practical, results-focused
-- Be proactive with opportunities- Be honest about risks to benefits
-- Always flag when specialist (solicitor/financial adviser) input is needed
-- Never be vague — concrete steps and actionable advice
+**Phase 2: Website Development & Content Creation**
+5.  **Niche Agent/Skill Definition:**
+    *   **Decision:** Determine if a new agent or a refined skill is best for managing this specific niche. For rank-and-rent, an agent that can orchestrate content creation, basic site setup, and SEO tasks is ideal.
+    *   **Documentation:** Save this decision and its rationale in `MEMORY.md`.
+6.  **Content Generation:**
+    *   **Utilize Firecrawl/Web Scraping (if applicable):** Scrape competitor websites for service descriptions, CTAs, and industry terms (ensure ethical and legal compliance).
+    *   **AI Content Creation:** Use LLM capabilities to generate unique, keyword-rich content for each page. Localize content using identified city/area names.
+    *   **Focus:** Create compelling service pages, an "About Us" highlighting trustworthiness, and a clear "Contact Us" page.
+7.  **Website Build:**
+    *   **Platform:** Choose a platform (e.g., WordPress with a suitable theme, or static site generator). For simplicity and speed in rank-and-rent, a pre-made theme or simple static site might be preferred.
+    *   **Development:** Assemble the pages with generated content, ensuring mobile responsiveness and clear CTAs.
+    *   **Tools:** Potentially use `exec` for command-line site builders or `browser` tool if interactive site building is needed (though less ideal for automation).
+8.  **Basic On-Page SEO Implementation:**
+    *   Integrate primary keywords naturally into page titles, headings (H1, H2), body text, and meta descriptions.
+    *   Ensure proper image alt text is used.
+    *   Implement schema markup for local businesses.
 
-### When Del Shares External Info (ALWAYS DO THIS)
-When Del shares videos, articles, courses, or information from anywhere:
-1. **Compare their approach vs OUR approach** — Give honest, unbiased feedback
-2. **Ask:** Does this fit Del's situation? (benefits constraints, trust, micro-SaaS vs services)
-3. **Key question:** Is this product-building or service-selling?
-4. **Always be direct** — If it doesn't fit, say so clearly
-5. **Extract key info** — Add to relevant research folder
+**Phase 3: Deployment & Optimization**
+9.  **Deployment:**
+    *   Host the website on a suitable platform (e.g., Vercel, Netlify, or a custom static host).
+    *   **Tools:** `exec` with deployment CLIs (like Vercel CLI, Netlify CLI) or `write` to file system if deploying manually.
+10. **Listing & Citation Building:**
+    *   Create citations on relevant Local SEO directories (Google Business Profile, Yelp, etc.).
+    *   **Tools:** This step might require manual input or specialized agents if available.
+11. **Content Updates & SEO Monitoring:**
+    *   Regularly add new content (blog posts, service area pages) targeting relevant keywords.
+    *   **Tools:** `web_search` for keyword updates, `exec` for new content generation and deployment.
+    *   Monitor rankings and traffic using available analytics.
 
-**OUR approach (always compare against):**
-- Build AI PRODUCTS (micro-SaaS) once, sell many times
-- Passive income, not trading time for money
-- No client management required
-- Fits UK benefits/trust constraints
-- Vibe-code for minimal cost
----
-## Recent Work (April 2026)
-### Vibe Coding SaaS Research
-- Del asked for market research on vibe coding / AI-built SaaS opportunities- Conducted web searches on multiple industries and pain points- Created comprehensive research document: `vibe-coding-saas-research.md`
-- Document includes 5 potential SaaS angles:
-  1. AI Receptionist with Quote Generation  2. AI Follow-Up Automation
-  3. Anti-QuickBooks (simple finance)
-  4. Creator Admin Cleanup
-  5. Simple CRM for solo professionals
-- Pushed to GitHub backup repo
-### Backup System
-- Created `backup.sh` script for workspace backups
-- Created GitHub Actions workflow for daily auto-backup at 2am UTC
-- Workflow tested and working successfully
-### Key Insight
-The #1 problem for vibe coders is **distribution** (not bugs or AI limits). Most successful vibe-coded products solve "boring B2B problems" for micro-businesses (1-5 employees).
----
-*Updated: April 2026*
-
-### Leo's Operating System (2026-04-15)
-- Del provided a full "agent operating system" prompt defining my role
-- Created `LEO-OS.md` with the complete framework
-- Key points: I'm an autonomous business operations agent, not just an answering service
-- Default workflow: review assets → score → decide execute/test/park/discard → action plan
-- Output format: always end with the single best next step
-
-### Dashnex & Side Merchant Setup (April 18, 2026)
-- Del enrolled in Side Merchant Program through Dashnex
-- Processed 34 training video transcripts (saved to `dashnex-setup/side-merchant/tutorials/`)
-- Researched ClickBank current top offers in 3 niches:
-  - **Niche #1 (Weight Loss):** Java Burn ($150+/sale), Okinawa Flat Belly Tonic
-  - **Niche #2 (Relationships):** His Secret Obsession (90% commission, evergreen)
-  - **Niche #5 (Pets):** Brain Training for Dogs (75%, ~$30/sale, highest quality score)
-- Created ClickBank knowledge base with offer details, commission structures, affiliate link formats
-- Found vendor resources: free giveaways, email swipes, banners for each offer
-- **Del's ClickBank nickname:** `dognurse`
-- **Selected niche for first site:** Pets/Brain Training for Dogs
-- All files saved in `dashnex-setup/clickbank/` and `dashnex-setup/side-merchant/`
-- **Pending:** Generate affiliate link, download resources, build Dashnex site
-- **Site deployed:** `dogtrainer.dashnexcloud.com` (deployment in progress)
-- **Hoplink:** `https://43a82zvewiulhp27swsh80t97x.hop.clickbank.net/?&campaign=pets1`
-- **Auto-responder:** Note from Del - previous niche setup by Claude integrated auto-responder + email sequences. Will check what auto-responders Dashnex supports when we get to that stage.
+**Phase 4: Monetization (The "Rent" Part)**
+12. **Lead Generation & Lead Capture:**
+    *   Ensure all contact forms and phone numbers are functional.
+    *   **Tools:** `exec` to test form submissions, `message` to potentially forward leads.
+13. **Client Acquisition:**
+    *   Find local businesses in the niche willing to rent the lead-capturing website.
+    *   **Tools:** `web_search` for local businesses, `message` for outreach (with caution).

@@ -1,1 +1,0 @@
-export { AuthPage as default, generateMetadata } from '@dashnex/system/client'

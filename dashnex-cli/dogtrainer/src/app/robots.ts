@@ -1,1 +1,0 @@
-export { robots as default } from '@dashnex/system';
