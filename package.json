@@ -1,0 +1,15 @@
+{
+  "name": "heyron-server",
+  "version": "1.0.0",
+  "description": "West Sussex Emergency Roofing - Static HTML website",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "lint": "echo 'No linting configured'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "packageManager": "npm@10.2.4"
+}
