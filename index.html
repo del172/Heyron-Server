@@ -181,7 +181,14 @@
             gap: 15px;
             list-style: none;
         }
-        .cities li {
+        .cities li a {
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .cities li a:hover {
+            text-decoration: underline;
+            color: #e94560;
+        }
             background: white;
             padding: 10px 20px;
             border-radius: 20px;
@@ -222,8 +229,14 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">West Sussex Emergency Roofing</div>
-                <a href="#contact" class="cta-button" style="padding: 10px 20px; font-size: 0.9rem;">Get Free Estimate</a>
+                <div class="logo"><a href="/" style="color: white; text-decoration: none;">West Sussex Emergency Roofing</a></div>
+                <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                    <a href="/emergency-roof-repair" style="color: white; text-decoration: none; font-size: 0.9rem;">Emergency</a>
+                    <a href="/roof-leak-repair" style="color: white; text-decoration: none; font-size: 0.9rem;">Leaks</a>
+                    <a href="/storm-damage" style="color: white; text-decoration: none; font-size: 0.9rem;">Storm Damage</a>
+                    <a href="/flat-roofing" style="color: white; text-decoration: none; font-size: 0.9rem;">Flat Roofing</a>
+                    <a href="#contact" class="cta-button" style="padding: 10px 20px; font-size: 0.9rem;">Get Free Estimate</a>
+                </div>
             </nav>
         </div>
     </header>
@@ -296,11 +309,11 @@
         <div class="container">
             <h2>Proudly Serving West Sussex & Surrounding Areas</h2>
             <ul class="cities">
-                <li>Chichester</li>
-                <li>Worthing</li>
-                <li>Crawley</li>
-                <li>Horsham</li>
-                <li>Bognor Regis</li>
+                <li><a href="/chichester">Chichester</a></li>
+                <li><a href="/worthing">Worthing</a></li>
+                <li><a href="/crawley">Crawley</a></li>
+                <li><a href="/horsham">Horsham</a></li>
+                <li><a href="/bognor-regis">Bognor Regis</a></li>
                 <li>Littlehampton</li>
                 <li>Haywards Heath</li>
                 <li>East Grinstead</li>
